@@ -5,7 +5,7 @@ package com.ct.pay.service;
  * @author: Cter
  * @date: 2020/12/7
  */
-public interface IPayService {
+public interface IPay {
     void query();
 
     void pay();

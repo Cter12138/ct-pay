@@ -5,10 +5,9 @@ import com.ct.pay.service.IPay;
 /**
  * @description:
  * @author: Cter
- * @date: 2020/12/7
+ * @date: 2020/12/8
  */
-public class AliPayFactory implements IPayFactory {
-
+public class WxPayFactory implements IPayFactory {
     public IPay getPay(String tradeType) {
         return null;
     }

@@ -1,6 +1,6 @@
 package com.ct.pay.factory;
 
-import com.ct.pay.service.IPayService;
+import com.ct.pay.service.IPay;
 
 /**
  * @description:
@@ -8,5 +8,5 @@ import com.ct.pay.service.IPayService;
  * @date: 2020/12/7
  */
 public interface IPayFactory {
-    IPayService getPay(String tradeType);
+    IPay getPay(String tradeType);
 }
