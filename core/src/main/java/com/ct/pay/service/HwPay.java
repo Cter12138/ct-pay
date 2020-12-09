@@ -1,5 +1,7 @@
 package com.ct.pay.service;
 
+import com.ct.pay.service.impl.IPay;
+
 /**
  * @description:
  * @author: Cter

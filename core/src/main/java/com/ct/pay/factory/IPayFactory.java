@@ -1,6 +1,6 @@
 package com.ct.pay.factory;
 
-import com.ct.pay.service.IPay;
+import com.ct.pay.service.impl.IPay;
 
 /**
  * @description:
