@@ -1,13 +1,16 @@
 package com.ct.pay.service;
 
 import com.ct.pay.service.impl.IPay;
+import org.springframework.stereotype.Service;
 
 /**
  * @description:
  * @author: Cter
  * @date: 2020/12/8
  */
-public class WxPay implements IPay {
+
+@Service
+public class WxJSAPIPay implements IPay {
     public void query() {
 
     }
