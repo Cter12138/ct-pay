@@ -1,5 +1,6 @@
 package com.ct.pay.factory;
 
+import com.ct.pay.service.WxAPPPay;
 import com.ct.pay.service.WxJSAPIPay;
 import com.ct.pay.service.impl.IPay;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,6 +17,9 @@ public class WxPayFactory implements IPayFactory {
 
     @Autowired
     private WxJSAPIPay wxJSAPIPay;
+
+    @Autowired
+    private WxAPPPay wxAPPPay;
 
     public IPay getPay(String tradeType) {
         return null;
