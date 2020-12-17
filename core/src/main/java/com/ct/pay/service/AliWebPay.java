@@ -9,7 +9,7 @@ import lombok.extern.slf4j.Slf4j;
  * @date: 2020/12/8
  */
 @Slf4j
-public class AliPay implements IPay {
+public class AliWebPay implements IPay {
 
 
     public void query() {
