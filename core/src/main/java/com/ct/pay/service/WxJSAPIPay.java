@@ -16,7 +16,7 @@ public class WxJSAPIPay implements IPay {
     }
 
     public void pay() {
-
+        System.out.println();
     }
 
     public void refund() {
