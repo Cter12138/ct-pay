@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class WxJSAPIPay implements IPay {
     public void query() {
-
+        System.out.println();
     }
 
     public void pay() {
